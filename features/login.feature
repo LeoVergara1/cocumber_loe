@@ -4,12 +4,10 @@
 
 Feature:  fill form
   Scenario: support user update customer data
-    Given support user visits arco dashboard
+    Given site is opened
     And waiting for manual validation "60" seconds
-    # When support user search and insert customer information
-    # And support user select process
-    # Then support user update data
-    Then support user update all data
+    When go to Sign in
+    And waiting for manual validation "60" seconds
 
 #   visito pagina
 #   busco cliente a cambiar
